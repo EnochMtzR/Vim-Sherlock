@@ -18,7 +18,9 @@ keymap.set("n", "<leader>d", "\"_d", { desc = "delete without afecting paste buf
 keymap.set("v", "<leader>d", "\"_d", { desc = "delete without afecting paste buffer" })
 
 keymap.set("v", "<leader>p", "\"_dP", { desc = "Paste but keep current paste buffer" })
+keymap.set("v", "<C-v>", "\"+p", {desc = "Paste from clipboard" })
 keymap.set("n", "<C-v>", "\"+p", {desc = "Paste from clipboard" })
+keymap.set("v", "<C-V>", "\"+P", {desc = "Paste from clipboard" })
 keymap.set("n", "<C-V>", "\"+P", {desc = "Paste from clipboard" })
 
 keymap.set("n", "<C-v>", "\"+p", {desc = "Paste from clipboard" })

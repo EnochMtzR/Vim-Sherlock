@@ -19,6 +19,16 @@ return {
 		})
 
 		mason_lspconfig.setup({
+            ensure_installed= {
+                "clangd",
+                "cmake",
+                "tsserver",
+                "gopls",
+                "rust_analyzer",
+                "lua_ls",
+                "helm_ls",
+                "pylsp",
+            },
 			automatic_installation = true,
 		})
 	end,
